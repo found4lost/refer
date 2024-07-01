@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+.sidebar {
+    display: flex;
+    width: 250px;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.sidebar .logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar ul li.active {
+    font-weight: bold;
+}
+ 
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    height: 100vh;
+    
+}
+button {
+    border-radius: 5px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: lightcoral;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header p {
+    margin: 10px 0 0 0;
+}
+
+.referral {
+    width: 100%;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.referral .share-link,
+.referral .invite-email,
+.referral .credits-earned,
+.referral .referrals-list {
+    margin-bottom: 20px;
+}
+
+.referral h2 {
+    margin-top: 0;
+}
+
+.social-links button{
+    margin-top: 5px;
+    border-radius: 50%;
+} 
+
+.referral input[type="email"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+.referral input[type="text"] {
+    width: calc(100% - 180px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+.referral button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.referral .social-links button {
+    margin-right: 10px;
+    background-color: #4caf50; /* Example color for social buttons */
+}
+
+.referral .credits-earned p,
+.referral .referrals-list p {
+    margin: 5px 0;
+}
+
+.referral-info {
+    height: 230px;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.cards{
+   display: flex;
+}
+.your-referral{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.referral-table{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+.referral-table .referral-table-header{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    
+}
+.referral-table .no-referrals{
+    margin-top: 37px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
